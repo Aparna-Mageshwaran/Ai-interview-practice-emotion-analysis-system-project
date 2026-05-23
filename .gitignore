@@ -1,41 +1,51 @@
 # =========================
-# FRONTEND (React/Vite/Angular)
+# FRONTEND - React / Vite / Angular
 # =========================
 frontend/node_modules/
 frontend/.cache/
 frontend/dist/
 frontend/build/
-frontend/.env
-frontend/.env.*
 frontend/.vite/
 frontend/.parcel-cache/
 
+# Frontend environment files
+frontend/.env
+frontend/.env.*
 
+# Frontend logs
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/pnpm-debug.log*
 
 
+# =========================
+# BACKEND - Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 *.pyo
 *.pyd
 *.egg-info/
+
 dist/
 build/
 
+# Backend environment files
 backend/.env
 backend/.env.*
-*.log
 
-# Virtual environments
+# Python virtual environments
 venv/
 env/
 ENV/
 .venv/
 
 
+# =========================
+# MACHINE LEARNING MODELS / DATA
+# =========================
 ml-models/
 models/
 *.zip
@@ -45,22 +55,44 @@ models/
 *.pkl
 *.onnx
 *.pt
+*.pth
 *.tflite
+*.joblib
 
 
+# =========================
+# LOGS
+# =========================
+*.log
+
+
+# =========================
+# OS FILES
+# =========================
 .DS_Store
 Thumbs.db
 
 
+# =========================
+# IDE / EDITOR FILES
+# =========================
 .vscode/
 .idea/
 *.swp
 *.swo
 
 
+# =========================
+# TESTING / COVERAGE
+# =========================
 .pytest_cache/
 .coverage
 htmlcov/
+
+
+# =========================
+# TEMP / BACKUP FILES
+# =========================
 *.tmp
 *.bak
 *.orig
