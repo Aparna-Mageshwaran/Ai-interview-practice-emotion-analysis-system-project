@@ -1,19 +1,66 @@
-# frontend
+# =========================
+# FRONTEND (React/Vite/Angular)
+# =========================
 frontend/node_modules/
 frontend/.cache/
 frontend/dist/
 frontend/build/
+frontend/.env
+frontend/.env.*
+frontend/.vite/
+frontend/.parcel-cache/
 
-# backend
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+
 __pycache__/
 *.pyc
-backend/.env
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
-# models
+backend/.env
+backend/.env.*
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+
 ml-models/
+models/
 *.zip
 *.mdl
 *.fst
+*.h5
+*.pkl
+*.onnx
+*.pt
+*.tflite
 
-# misc
+
 .DS_Store
+Thumbs.db
+
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
+*.bak
+*.orig
